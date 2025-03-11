@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" modified="2024-01-23T10:10:07.735Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="OhvHJHc_hEl8Z0260jKX" version="22.1.21" type="device" pages="2">
+  <diagram name="training-for-customer-segmentation" id="wC7IQQqQhaZXkyt9bH28">
+    <mxGraphModel dx="654" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yxTWKQuq8_3Nd0YJgyW1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;labelBorderColor=none;labelBackgroundColor=none;noEdgeStyle=1;orthogonal=1;" parent="1" source="yxTWKQuq8_3Nd0YJgyW1-1" target="yxTWKQuq8_3Nd0YJgyW1-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="374" y="337" />
+              <mxPoint x="374" y="413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yxTWKQuq8_3Nd0YJgyW1-1" value="i/p: Training data&lt;br&gt;(Bank customer data)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;labelBorderColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="284" y="336" width="180" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="yxTWKQuq8_3Nd0YJgyW1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;labelBorderColor=none;labelBackgroundColor=none;noEdgeStyle=1;orthogonal=1;" parent="1" source="yxTWKQuq8_3Nd0YJgyW1-3" target="yxTWKQuq8_3Nd0YJgyW1-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="374" y="427" />
+              <mxPoint x="374" y="503" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yxTWKQuq8_3Nd0YJgyW1-3" value="Identify erroneous/incomplete/outlier data for correction" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;labelBorderColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="284" y="423" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="yxTWKQuq8_3Nd0YJgyW1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;labelBorderColor=none;labelBackgroundColor=none;noEdgeStyle=1;orthogonal=1;" parent="1" target="yxTWKQuq8_3Nd0YJgyW1-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="374" y="485" />
+              <mxPoint x="374" y="561" />
+            </Array>
+            <mxPoint x="374" y="473" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yxTWKQuq8_3Nd0YJgyW1-5" value="Clean data" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;labelBorderColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="334" y="515" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Sr4oXB9IHzh_Lroia5B-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yxTWKQuq8_3Nd0YJgyW1-7" target="GByjEKwWKJxcTROKpSUE-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yxTWKQuq8_3Nd0YJgyW1-7" value="&lt;div&gt;Select features&lt;/div&gt;&lt;div&gt;(i.e. identify fields/parameters for training)&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;labelBorderColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="254" y="573" width="240" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="8Sr4oXB9IHzh_Lroia5B-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yxTWKQuq8_3Nd0YJgyW1-9" target="yxTWKQuq8_3Nd0YJgyW1-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yxTWKQuq8_3Nd0YJgyW1-9" value="Train model&lt;br&gt;(model: kMeans clustering)" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=6;labelBorderColor=none;verticalLabelPosition=middle;verticalAlign=middle;shape=process;size=0.14;labelPosition=center;align=center;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="259" y="731" width="230" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="8Sr4oXB9IHzh_Lroia5B-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yxTWKQuq8_3Nd0YJgyW1-12" target="GByjEKwWKJxcTROKpSUE-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yxTWKQuq8_3Nd0YJgyW1-12" value="Evaluate and assign labels for better understanding" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;labelBorderColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="294" y="821" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="yxTWKQuq8_3Nd0YJgyW1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;labelBorderColor=none;labelBackgroundColor=none;noEdgeStyle=1;orthogonal=1;" parent="1" source="yxTWKQuq8_3Nd0YJgyW1-14" target="yxTWKQuq8_3Nd0YJgyW1-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="374" y="248" />
+              <mxPoint x="374" y="324" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yxTWKQuq8_3Nd0YJgyW1-14" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;labelBorderColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="324" y="240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Sr4oXB9IHzh_Lroia5B-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GByjEKwWKJxcTROKpSUE-1" target="yxTWKQuq8_3Nd0YJgyW1-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GByjEKwWKJxcTROKpSUE-1" value="Scale selected features (optional step)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="301.5" y="661" width="145" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="GByjEKwWKJxcTROKpSUE-2" value="This is to bring all input parameters under the same scale for easy analyses. This is important in case of clustering." style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="30" y="515" width="204" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="GByjEKwWKJxcTROKpSUE-3" value="" style="edgeStyle=none;endArrow=none;exitX=1;exitY=1;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GByjEKwWKJxcTROKpSUE-2" target="GByjEKwWKJxcTROKpSUE-1" edge="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="954" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GByjEKwWKJxcTROKpSUE-7" value="o/p: customer-sementation-model" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="244" y="890" width="256" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6e6J9-ByPdq6drw4Vzxi-5" value="In wms customer segmentation selected feature are (sip_amount, networth, age)" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="593" y="493" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6e6J9-ByPdq6drw4Vzxi-6" value="" style="edgeStyle=none;endArrow=none;exitX=0;exitY=0.5;dashed=1;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="yxTWKQuq8_3Nd0YJgyW1-7" edge="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="494" y="491" as="targetPoint" />
+            <mxPoint x="593" y="524" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e6J9-ByPdq6drw4Vzxi-7" value="Identify missing values, incomplete values. if any handle it using various techniques or drop that particular column" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="563" y="320" width="227" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="6e6J9-ByPdq6drw4Vzxi-8" value="" style="edgeStyle=none;endArrow=none;exitX=0;exitY=0.5;dashed=1;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="464" y="441" as="targetPoint" />
+            <mxPoint x="563" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e6J9-ByPdq6drw4Vzxi-9" value="&lt;br&gt;K-means clustering is a partitioning method that divides a dataset into K distinct, non-overlapping subsets (clusters) based on the similarity of data points, with each cluster represented by its centroid." style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="600" y="610.5" width="206" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="6e6J9-ByPdq6drw4Vzxi-10" value="" style="edgeStyle=none;endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.011;exitY=0.603;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6e6J9-ByPdq6drw4Vzxi-9" target="yxTWKQuq8_3Nd0YJgyW1-9" edge="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="494" y="755" as="targetPoint" />
+            <mxPoint x="580" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6e6J9-ByPdq6drw4Vzxi-11" value="This is trained model stored in binary format" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="28" y="830" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6e6J9-ByPdq6drw4Vzxi-12" value="" style="edgeStyle=none;endArrow=none;exitX=0;exitY=0;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitDx=206;exitDy=37.5;exitPerimeter=0;" parent="1" source="6e6J9-ByPdq6drw4Vzxi-11" target="GByjEKwWKJxcTROKpSUE-7" edge="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="488.5" y="1265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="N_I-J5LEzXxbQTfTSgG4" name="customer-sgementation">
+    <mxGraphModel dx="1434" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Il4uUxY-xVUQE6m2tTvW-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="276" y="501" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Il4uUxY-xVUQE6m2tTvW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" edge="1" parent="1" source="Il4uUxY-xVUQE6m2tTvW-3" target="Il4uUxY-xVUQE6m2tTvW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il4uUxY-xVUQE6m2tTvW-3" value="I/p: Bank customers data" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="591" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Il4uUxY-xVUQE6m2tTvW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.51;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;" edge="1" parent="1" source="Il4uUxY-xVUQE6m2tTvW-1" target="Il4uUxY-xVUQE6m2tTvW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il4uUxY-xVUQE6m2tTvW-5" value="Feature selection&lt;br&gt;Feature scaling" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="242" y="721" width="168" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Il4uUxY-xVUQE6m2tTvW-6" value="Prediction" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="480" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oYfiXOZqPMCNEQ878G3k-1" value="O/p: Prediction&lt;br&gt;(Customer segmentation into k categories)" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;strokeWidth=2;align=center;labelPosition=center;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="949" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oYfiXOZqPMCNEQ878G3k-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;noEdgeStyle=1;orthogonal=1;" edge="1" parent="1" target="oYfiXOZqPMCNEQ878G3k-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="840" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="550" y="861" />
+              <mxPoint x="550" y="937" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
